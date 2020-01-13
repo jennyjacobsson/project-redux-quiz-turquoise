@@ -1,0 +1,25 @@
+.currentQuestion {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 500px;
+  justify-content: flex-start;
+}
+
+.currentQuestionAnswer {
+  display: flex;
+  height: 350px; 
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+.currentQuestionNextButton {
+  align-self: flex-end;
+}
+
+.currentQuestionProgressBarWrapper {
+  justify-self: center;
+  align-self: center;
+}
+
+
